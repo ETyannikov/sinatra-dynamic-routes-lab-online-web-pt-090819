@@ -23,8 +23,6 @@ class App < Sinatra::Base
   get '/say/:word1/:word2/:word3/:word4/:word5'
     words = []
     count = 1
-    until count == 5
-      
-    end
+    
   end
 end

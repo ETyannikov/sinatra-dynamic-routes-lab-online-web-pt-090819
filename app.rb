@@ -20,5 +20,8 @@ class App < Sinatra::Base
     @answer
   end
   
-  get '/say/:w'
+  get '/say/:word1/:word2/:word3/:word4/:word5'
+    words = []
+    while 
+  end
 end

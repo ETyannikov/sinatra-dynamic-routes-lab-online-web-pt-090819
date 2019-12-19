@@ -19,4 +19,6 @@ class App < Sinatra::Base
     params[:number].to_i.times {@answer += "#{@phrase}"}
     @answer
   end
+  
+  get '/say/:w'
 end
